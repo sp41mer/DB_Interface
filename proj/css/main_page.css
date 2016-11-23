@@ -45,57 +45,27 @@
     border-bottom: 1px solid #E5E5E5;
 }
 
-.teachers{
+.blocks{
     height: 40px;
     padding-top: 10px;
     background: #ECF2F7;
     text-align: center;
-    margin: 0 10px;
-    border: 1px solid #E5E5E5;
+    margin: 10px 10px;
 }
 
-.teacher{
-    margin: 5px 0;
+.marks__all{
+    margin-top: 10px;
+    background-color: #F5F5F5;
+    padding-bottom: 10px;
+}
+.marks{
+    margin-top: 5px;
 }
 
-.teacher__list{
-    display: none;
-    margin: 15px 10px;
-    border: 1px solid #E5E5E5;
-
+.submit{
+    margin-top: 5px;
 }
 
-.teacher__rating-marks{
-    display: none;
-}
 
-.teacher__rating-marks_margin{
-    margin: 5px 0;
-}
 
-.teacher__rating-submit{
-    margin: 5px 0;
-}
 
-.students{
-    height: 40px;
-    padding-top: 10px;
-    background: #ECF2F7;
-    text-align: center;
-    margin: 0 10px;
-}
-
-.studying-plan{
-    height: 40px;
-    padding-top: 10px;
-    background: #ECF2F7;
-    text-align: center;
-    margin: 0 10px;
-}
-
-.npd{
-    height: 40px;
-    padding-top: 10px;
-    background: #ECF2F7;
-    text-align: center;
-}
