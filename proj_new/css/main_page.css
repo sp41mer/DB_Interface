@@ -47,7 +47,7 @@
 
 .blocks{
     cursor: pointer;
-    height: 40px;
+    min-height: 40px;
     padding-top: 10px;
     background: #ECF2F7;
     text-align: center;
