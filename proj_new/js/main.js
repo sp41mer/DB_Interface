@@ -2,12 +2,13 @@
  * Created by danilakimov on 18.11.16.
  */
 
-$( ".teacher__show" ).click(function() {
-  $( ".teacher__list" ).show();
+$( ".show__marks" ).on("click", function() {
+  $(this).parent().find( ".marks__all" ).toggle();
+});
+
+$( ".blocks" ).on("click", function() {
+  window.location = $(this).find( "a" ).attr('href');
 });
 
 
-$( ".teacher__rating" ).click(function() {
-  $( ".teacher__rating-marks" ).show();
-});
-
+$('.dropdown-toggle').dropdown()
