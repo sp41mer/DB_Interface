@@ -54,27 +54,54 @@
             <div class="row">
                 <div class="col-sm-4 col-sm-offset-4 ">
                     <p class="bg-warning alert__top">
-                        Выберите то, что хотите оценить
+                        Средняя оценка судента
                     </p>
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-12 body__right">
-                    <div class="row">
-                        <div class="col-xs-6 ">
-                            <div class="blocks">
-                                <a href=" learnings.html">
-                                     Занятия
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-xs-6">
-                            <div class="blocks">
-                                <a href="tests_rating.html">
-                                    Контрольно-проверочные мероприятия
-                                </a>
-                            </div>
-                        </div>
+                <div class="col-sm-11 col-sm-offset-1 ">
+                    <svg class="bullet" width="960" height="50">
+                        <g transform="translate(120,5)">
+                            <rect class="range s0" width="800" height="25" x="0"></rect>
+                            <rect class="measure s1" width="600" height="8.333333333333334" x="0"
+                                  y="8.333333333333334"></rect>
+                            <g class="tick" transform="translate(0,0)" style="opacity: 1;">
+                                <line y1="25" y2="29.166666666666668"></line>
+                                <text text-anchor="middle" dy="1em" y="29.166666666666668">0</text>
+                            </g>
+                            <g class="tick" transform="translate(160,0)" style="opacity: 1;">
+                                <line y1="25" y2="29.166666666666668"></line>
+                                <text text-anchor="middle" dy="1em" y="29.166666666666668">2</text>
+                            </g>
+                            <g class="tick" transform="translate(320,0)" style="opacity: 1;">
+                                <line y1="25" y2="29.166666666666668"></line>
+                                <text text-anchor="middle" dy="1em" y="29.166666666666668">4</text>
+                            </g>
+                            <g class="tick" transform="translate(480,0)" style="opacity: 1;">
+                                <line y1="25" y2="29.166666666666668"></line>
+                                <text text-anchor="middle" dy="1em" y="29.166666666666668">6</text>
+                            </g>
+                            <g class="tick" transform="translate(640,0)" style="opacity: 1;">
+                                <line y1="25" y2="29.166666666666668"></line>
+                                <text text-anchor="middle" dy="1em" y="29.166666666666668">8</text>
+                            </g>
+                            <g class="tick" transform="translate(800,0)" style="opacity: 1;">
+                                <line y1="25" y2="29.166666666666668"></line>
+                                <text text-anchor="middle" dy="1em" y="29.166666666666668">10</text>
+                            </g>
+                            <g transform="translate(-6,12.5)" style="text-anchor: end;">
+                                <text class="title">Уровень сложности</text>
+                            </g>
+                        </g>
+                    </svg>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-2 col-sm-offset-5">
+                    <div>
+                        <a href="main_page.html" class="button_go_back btn btn-primary btn-sm">
+                             Вернуться на главную
+                        </a>
                     </div>
                 </div>
             </div>
@@ -89,6 +116,13 @@
 <script src="js/main.js"></script>
 
 <script src="js/sweetalert.min.js"></script>
+
+<script src="js/d3.min.js"></script>
+
+<script src="js/bullet.js"></script>
+
+<script src="js/chart.js"></script>
+
 
 
 </html>
